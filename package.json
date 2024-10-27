@@ -1,0 +1,30 @@
+{
+  "name": "raw-node-api-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "SET NODE_ENV=staging & nodemon index.js",
+    "production": "SET NODE_ENV=production & nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "peerdeps": "^1.1.1",
+    "twilio": "^5.3.5",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3"
+  }
+}
